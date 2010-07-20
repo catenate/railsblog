@@ -1,0 +1,45 @@
+/home/jdc/git/railsblog
+/usr/local/plan9/font/times/latin1.7a.font
+/home/jdc/opt/src/icons/icons.14.font
+  0.0000000  59.8437500
+w server Newcol Kill Putall Dump acme.dump Exit 
+c          0 New Cut Paste Snarf Sort Zerox Delcol 
+c          1 New Cut Paste Snarf Sort Zerox Delcol 
+f          0           2           0           0   2.0697168 
+          2          46         146           1           0 /home/jdc/git/railsblog/ Del Snarf Get | Look 
+F          0           1           0           0   9.8039216           0 
+         23          50           0           0           0 /home/jdc/git/pnblic/nb/20100719 Del Snarf | Look 
+f          1          14          44         112   2.0697168 
+         14          52         158           0           0 /home/jdc/git/railsblog/guide Del Snarf Undo | Look 
+F          1           1        1126        1126  13.5076253        1126 
+         26          49        1126           0           1 /home/jdc/git/railsblog/+Errors Del Snarf | Look 
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	renamed:    README -> README.rails
+#	new file:   acme.dump
+#	new file:   app/controllers/home_controller.rb
+#	new file:   app/controllers/posts_controller.rb
+#	new file:   app/helpers/home_helper.rb
+#	new file:   app/helpers/posts_helper.rb
+#	new file:   app/models/post.rb
+#	new file:   app/views/home/index.html.erb
+#	new file:   app/views/layouts/posts.html.erb
+#	new file:   app/views/posts/edit.html.erb
+#	new file:   app/views/posts/index.html.erb
+#	new file:   app/views/posts/new.html.erb
+#	new file:   app/views/posts/show.html.erb
+#	modified:   config/database.yml
+#	modified:   config/routes.rb
+#	new file:   db/migrate/20100715052739_create_posts.rb
+#	new file:   db/schema.rb
+#	new file:   guide
+#	modified:   log/development.log
+#	renamed:    public/index.html -> public/rails.html
+#	new file:   public/stylesheets/scaffold.css
+#	new file:   test/fixtures/posts.yml
+#	new file:   test/functional/home_controller_test.rb
+#	new file:   test/functional/posts_controller_test.rb
+#	new file:   test/unit/post_test.rb
+#
