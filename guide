@@ -2,7 +2,7 @@
 http://127.0.0.1:3000
 http://stark-moon-52.heroku.com
 git status
-git commit -a -m 'Prettify index; use lighttpd since webrick breaks.'
+git commit -a -m 'Prettify index, show and home.'
 git push origin master
 git push heroku master
 
@@ -12,3 +12,5 @@ http://127.0.0.1:3000/
 script/lighttpd
 script/lighttpd -d -e production
 http://127.0.0.1:8000/
+
+  <%=h post.content.slice(0..139).concat("…") %>

@@ -1,4 +1,8 @@
-body { background-color: #ffd; color: #333; }
+body {
+	background-color: #ffd;
+	color: #333;
+	width: 30em;
+}
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -14,7 +18,7 @@ pre {
 
 a { color: #bbb; text-decoration: none; }
 a:visited { color: #bbb; }
-a:hover { color: blue; }
+a:hover { color: red; }
 
 span.italic {
   font-style: italic;

@@ -1,7 +1,8 @@
 <% for post in @posts %>
   <span class="italic"><%=h post.title %></span>
   <br />
-  <%=h post.content %>
+  <br />
+  <%= if post.content.length > 140 then post.content.slice(0..139).concat("…") else post.content end %>
   <br />
   <span class="mute">
   <%= link_to 'Show', post %>
@@ -10,8 +11,7 @@
   </span>
   <br />
   <br />
+  <br />
 <% end %>
 
-<br />
-
-<%= link_to 'New post', new_post_path %>
+<%= link_to 'New', new_post_path %>

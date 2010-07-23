@@ -1,16 +1,11 @@
+<title><%=h @post.name %></title>
+
 <p>
-  <b>Name:</b>
-  <%=h @post.name %>
+  <span class="italic"><%=h @post.title %></span>
 </p>
 
 <p>
-  <b>Title:</b>
-  <%=h @post.title %>
-</p>
-
-<p>
-  <b>Content:</b>
-  <%=h @post.content %>
+  <%= @post.content %>
 </p>
 
 
